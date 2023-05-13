@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --r-l: 'Rubik-Light';
+    --r-r: 'Rubik-Regular';
+}
+
+body{
+    min-width: 280px;
+}
+
+/* header */
+header .navbar{
+    background: #000;
+    border-radius: 10px;
+}
+
+header{
+    margin-top: 24px; 
+}
+
+header .header-link{
+    width: 106px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7f15e6;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+header .header-link:hover{
+    color: #7f15e6;
+    background: #d4aafd;
+}
+
+header .header-icon{
+    color: #fff;
+    font-size: 35px;
+}
+
+header .header-menu{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    border-radius: 8px;
+    padding: 8px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+header .header-menu ul{
+    display: flex;
+}
+
+header .header-menu ul a{
+    width: 57px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ff118c;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.5s;
+    margin-right: 7px;
+}
+
+header .header-menu ul a:hover{
+    background: #ff118c;
+}
+
+header .header-menu .menu-icon{
+    font-size: 20px;
+    color: #fff;
+ 
+}
+/* ***************************************************** */
+/* header end */
+
+
+/* main start */
+/* ***************************************************** */
+
+.main .slider .slider-block{
+    position: relative;
+}
+
+.main .slider .slider-block .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 51px;
+    padding-left: 42px;
+}
+
+.main .slider .slider-block .images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .slider .slider-block h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: var(--r-r);
+    max-width: 370px;
+    width: 100%;
+}
+
+.main .slider .slider-block p{
+    font-size: 17px;
+    color: #fff;
+    font-family: var(--r-l); 
+    margin-right: 37px;
+}
+
+.main .slider .slider-block ul{
+    display: flex;
+    margin-top: 45px;
+}
+
+.main .slider .slider-block a{
+    width: 164px;
+    height: 48px;
+    font-size: 17px;
+    color: #fff;
+    background: #d62478;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    transition: 0.5s;
+}
+
+.main .slider .slider-block a:hover{
+    background: #fff;
+    color: #d62478;
+}
+
+.main .slider .btn .carousel-control-btn{
+    width: 34px;
+    height: 26px;
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 0 8px 0 #8d8d8d;
+}
+
+.main .slider .btn{
+    border: 2px solid #6d00e3;
+    border-radius: 20px;
+    padding: 3px 4px;
+    margin-top: 14px;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.main{
+    margin-top: 42px;
+}
+
+.main .treanding h2{
+    font-size: 17px;
+    
+}
+
+.main .treanding .box{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+.main .treanding .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.main .treanding .box:hover img{
+    transform: scale(1);
+}
+
+.main .treanding .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000003d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .treanding .text h3{
+    font-size: 20px;
+}
+
+.main .treanding .text p{
+    font-size: 14px;
+}
+
+
+.main .users{
+    background: #e2e2e2;
+    border-radius: 10px;
+    padding: 17px 20px;
+}
+
+.main .users .box{
+    display: flex;
+    padding: 28px 12px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.main .users .box:hover{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #adadad;
+}
+
+.main .users .box h4, p{
+    font-size: 14px;
+}
+
+.main .users .text{
+    margin-left: 8px;
+}
+ 
+/* ***************************************************** */
+/* main end */
+
+
+/* section tab */
+/* ****************************************************** */
+
+.section-tab .nav-pills .nav-link{
+    font-size: 12px;
+    color: #000;
+    padding: 6px 10px;
+    border: 2px solid #ff118c;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+
+.section-tab .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background:#ff118c;
+    color: #fff;
+}
+
+.section-tab .nav{
+    justify-content: flex-end;
+}
+
+.section-tab{
+    margin-top: 24px;
+}
+
+.section-tab .tab-box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.section-tab .tab-box .user-images{
+    width: 100%;
+    transform: scale(1.5);
+    
+    transition: 0.5s;
+}
+
+.section-tab .tab-box:hover .user-images{
+    transform: scale(1);
+}
+
+.section-tab .tab-text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #0000006c;
+    border-radius: 8px;
+    width: 90%;
+    padding: 17px 15px;
+    color: #fff;
+}
+
+.section-tab .tab-box .tab-text h4{
+    font-size: 14px;
+}
+
+.section-tab .tab-box .tab-text h5{
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+.section-tab .tab-text h5 img{
+    margin-right: 8px;
+}
+
+.section-tab .tab-text p{
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+/* ****************************************************** */
+/* section tab end*/
+
+/* footer start */
+/* ****************************************************** */
+
+.footer{
+    margin-bottom: 12px;
+}
+
+.footer img{
+    width: 100%;
+}
+
+/* ****************************************************** */
+/* footer end */
